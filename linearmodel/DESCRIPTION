@@ -1,0 +1,17 @@
+Package: linearmodel
+Type: Package
+Title: An implementation of linear model 
+Version: 0.1.0
+Author: person(“Yueyi”, “Li”, email = “yueyi.li@yale.edu”,
+  role = c("aut", "cre"))
+Maintainer: Yueyi Li <yueyi.li@yale.edu>
+Description: An implementation of linear model in R. It takes a formula, a data frame and contrasts of categorical variables and calculates the coefficients of the fitted linear model. 
+License: MIT
+Encoding: UTF-8
+LazyData: true
+Suggests: 
+    testthat (>= 2.1.0),
+    RCurl
+RoxygenNote: 6.1.1
+Imports: 
+    lintools
